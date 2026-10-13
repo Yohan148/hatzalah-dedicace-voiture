@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#061221">
+<meta name="description" content="Une voiture d'intervention United Hatzalah rendue possible grâce à la générosité de ses donateurs. Découvrez leur dédicace.">
+<meta property="og:title" content="Ce qui nous unit aujourd'hui sauvera des vies demain | United Hatzalah">
+<meta property="og:description" content="Un hommage aux donateurs de la voiture David Cohen, David Trigalo & Michael Zana.">
+<meta property="og:image" content="/assets/hero-voiture.png">
+<meta property="og:type" content="website">
+<title>Page de dédicace — United Hatzalah</title>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#061221;--bg2:#0a1830;--panel:#0c1c31;--gold:#f2c086;--orange:#ff741d;--ivory:#fbf5ed;--muted:#bac6d3;--line:rgba(231,182,132,.2);--glow:rgba(255,116,29,.14)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'DM Sans',Arial,sans-serif;background:
+radial-gradient(circle at 12% 8%, rgba(255,116,29,.11), transparent 24%),
+radial-gradient(circle at 86% 4%, rgba(242,192,134,.10), transparent 18%),
+linear-gradient(180deg,#081423 0%,#061221 42%,#08121f 100%);
+color:var(--ivory);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body:before,body:after{content:"";position:fixed;pointer-events:none;z-index:-1;border-radius:50%;filter:blur(70px)}
+body:before{width:300px;height:300px;top:-120px;left:-100px;background:rgba(255,116,29,.07)}
+body:after{width:280px;height:280px;top:28%;right:-120px;background:rgba(69,108,173,.12)}
+.container{width:min(1180px,calc(100% - 42px));margin:auto}
+.sitehead{padding:26px 0 12px;position:sticky;top:0;backdrop-filter:blur(14px);background:linear-gradient(180deg,rgba(6,18,33,.92),rgba(6,18,33,.55));border-bottom:1px solid rgba(255,255,255,.04);z-index:20}
+.sitehead-inner{display:flex;justify-content:center;align-items:center}
+.brand{display:flex;align-items:center;gap:14px;color:#fff;text-decoration:none}
+.brand img{width:56px;height:56px;display:block;filter:drop-shadow(0 0 14px rgba(255,116,29,.16))}
+.brand-label{font-weight:800;font-size:21px;line-height:1.02;letter-spacing:.065em}
+.hero{padding:62px 0 8px;text-align:center;position:relative}
+.eyebrow{color:var(--gold);font-size:11px;letter-spacing:.34em;text-transform:uppercase;font-weight:800;margin-bottom:18px}
+.hero h1{font:500 clamp(42px,7vw,84px)/1.06 'Playfair Display',Georgia,serif;margin:0 0 18px;letter-spacing:-.03em}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.campaign{font-size:clamp(16px,1.9vw,24px);color:#d7dee8;max-width:900px;margin:0 auto 18px;line-height:1.45}
+.campaign strong{font-weight:800;color:#fff}
+.goldline{height:1px;width:120px;margin:0 auto;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.hero-card{margin:28px auto 0;position:relative;padding:22px;border:1px solid rgba(231,182,132,.18);border-radius:28px;background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.015));box-shadow:0 20px 100px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.05)}
+.hero-card:before{content:'';position:absolute;inset:-1px;border-radius:28px;padding:1px;background:linear-gradient(135deg,rgba(255,116,29,.36),rgba(255,255,255,.05),rgba(242,192,134,.18));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+.hero-glow{position:absolute;inset:12% 12% auto 12%;height:56%;background:radial-gradient(ellipse at center,rgba(255,116,29,.22),transparent 60%);filter:blur(34px);pointer-events:none}
+.hero-visual{position:relative;border-radius:22px;overflow:hidden;background:linear-gradient(180deg,#0f1d33,#0a1322);box-shadow:inset 0 1px 0 rgba(255,255,255,.04)}
+.hero-visual img{display:block;width:100%;height:auto}
+.status{display:inline-flex;gap:10px;align-items:center;margin:18px auto 4px;padding:12px 18px;border:1px solid rgba(242,192,134,.24);background:rgba(10,25,43,.75);border-radius:999px;color:#f2d0a7;font-size:12px;letter-spacing:.11em;text-transform:uppercase}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--orange);box-shadow:0 0 0 6px rgba(255,116,29,.12), 0 0 18px rgba(255,116,29,.4)}
+.dedication{padding:64px 0 68px;text-align:center;position:relative}
+.dedication:before{content:'“';display:block;font:90px Georgia,serif;color:var(--orange);line-height:.25;margin-bottom:8px}
+.dedication blockquote{margin:0 auto 24px;max-width:880px;font:italic clamp(31px,4.8vw,56px)/1.35 'Playfair Display',Georgia,serif;letter-spacing:-.02em}
+.dedication blockquote span{color:var(--gold)}
+.story{padding:72px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,.01))}
+.section-kicker{color:var(--gold);letter-spacing:.28em;font-size:11px;text-transform:uppercase;font-weight:800;text-align:center}
+.story h2,.donors h2{margin:17px auto 22px;text-align:center;font:500 clamp(34px,5vw,54px)/1.12 'Playfair Display',Georgia,serif}
+.story p{max-width:700px;margin:0 auto;color:#cbd3dd;font-size:16px;line-height:1.9;text-align:center}
+.indicators{margin:44px auto 0;display:grid;grid-template-columns:repeat(3,1fr);gap:0;max-width:900px}
+.indicator{padding:12px 18px;text-align:center;border-right:1px solid rgba(242,192,134,.16)}
+.indicator:last-child{border-right:none}
+.indicator svg{width:34px;height:34px;stroke:var(--orange);fill:none;stroke-width:1.6;margin-bottom:11px}
+.indicator span{display:block;color:#d2c7bc;font-size:11px;letter-spacing:.16em;text-transform:uppercase}
+.donors{padding:88px 0 105px;position:relative}
+.donors .intro{max-width:760px;margin:0 auto 38px;color:var(--muted);line-height:1.9;text-align:center}
+.name-panel{position:relative;border:1px solid rgba(231,182,132,.26);border-radius:28px;padding:34px 22px 24px;background:
+radial-gradient(circle at 85% 18%, rgba(255,116,29,.08), transparent 24%),
+radial-gradient(circle at 10% 86%, rgba(93,124,179,.1), transparent 26%),
+linear-gradient(160deg,#0f1f35 0%,#081522 55%,#0d1b2d 100%);box-shadow:0 25px 90px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.05);overflow:hidden}
+.name-panel:before{content:'';position:absolute;right:-80px;bottom:-76px;width:300px;height:300px;background:url('/assets/logo-hatzalah.png') center/contain no-repeat;opacity:.065;filter:drop-shadow(0 0 26px rgba(255,116,29,.18));pointer-events:none}
+.name-panel:after{content:'';position:absolute;left:-40px;top:-36px;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,rgba(255,116,29,.12),transparent 68%);filter:blur(10px);pointer-events:none}
+.panel-title-wrap{display:flex;justify-content:center;margin-bottom:28px}
+.panel-title{display:inline-block;padding:14px 28px;border:1px solid rgba(242,192,134,.34);border-radius:999px;background:rgba(7,20,35,.78);box-shadow:0 0 0 1px rgba(255,255,255,.03) inset;font:500 clamp(26px,3vw,40px)/1.1 'Playfair Display',Georgia,serif;color:var(--gold)}
+.name-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;position:relative;z-index:1}
+.name{position:relative;padding:16px 14px;min-height:74px;display:flex;align-items:center;justify-content:center;text-align:center;border:1px solid rgba(255,255,255,.06);border-radius:18px;background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02));box-shadow:inset 0 1px 0 rgba(255,255,255,.04), 0 10px 28px rgba(0,0,0,.12);font:600 clamp(15px,1.5vw,18px)/1.4 'DM Sans',Arial,sans-serif;color:#f6f0e9;letter-spacing:.01em;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease,background .25s ease}
+.name:hover{transform:translateY(-3px);border-color:rgba(242,192,134,.28);background:linear-gradient(180deg,rgba(255,116,29,.08),rgba(255,255,255,.03));box-shadow:inset 0 1px 0 rgba(255,255,255,.05), 0 16px 32px rgba(0,0,0,.22)}
+.footer{text-align:center;border-top:1px solid rgba(242,192,134,.14);padding:50px 20px 58px;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.12))}
+.footer .heart{font-size:26px;color:var(--orange)}
+.footer p{margin:12px auto 24px;max-width:700px;font:italic 25px/1.5 'Playfair Display',Georgia,serif}
+.footer small{color:#91a0af;font-size:11px;letter-spacing:.16em}
+.foot-link{display:inline-block;margin-top:20px;color:#f1c39b;text-decoration:none;font-size:12px;letter-spacing:.14em}
+.foot-link:hover{text-decoration:underline}
+.reveal{animation:showup .85s ease both}
+@keyframes showup{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@media(max-width:980px){.name-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:720px){.sitehead{padding:18px 0 10px}.brand img{width:44px;height:44px}.brand-label{font-size:17px}.hero{padding-top:42px}.hero-card{padding:12px}.hero-visual{border-radius:18px}.status{margin-top:14px}.dedication{padding:55px 0 56px}.story{padding:58px 0}.indicators{grid-template-columns:1fr;gap:18px}.indicator{border-right:none;border-bottom:1px solid rgba(242,192,134,.12);padding-bottom:18px}.indicator:last-child{border-bottom:none}.donors{padding:68px 0 78px}.name-panel{padding:22px 14px 16px;border-radius:22px}.panel-title{padding:12px 20px;font-size:29px}.name-grid{grid-template-columns:1fr;gap:12px}.name{min-height:64px;padding:14px 12px}.footer p{font-size:22px}}
+@media(prefers-reduced-motion:reduce){.reveal,.name{animation:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="sitehead">
+  <div class="container sitehead-inner">
+    <a href="#accueil" class="brand" aria-label="United Hatzalah — accueil">
+      <img src="/assets/logo-hatzalah.png" alt="Logo United Hatzalah">
+      <span class="brand-label">UNITED<br>HATZALAH</span>
+    </a>
+  </div>
+</header>
+<main id="accueil">
+  <section class="hero container reveal">
+    <div class="eyebrow">Un élan de générosité · Une mission de vie</div>
+    <h1>Une voiture.<br><em>Des vies sauvées.</em></h1>
+    <p class="campaign">Une réalisation portée par<br><strong>David Cohen, David Trigalo &amp; Michael Zana</strong></p>
+    <div class="goldline"></div>
+    <div class="hero-card">
+      <div class="hero-glow"></div>
+      <div class="hero-visual">
+        <img src="/assets/hero-voiture.png" alt="Voiture orange d'intervention United Hatzalah" width="1672" height="941">
+      </div>
+    </div>
+    <div class="status"><span class="dot"></span>Déjà sur le terrain</div>
+  </section>
+  <section class="dedication container reveal">
+    <blockquote>Ce qui nous unit aujourd’hui<br><span>sauvera des vies demain.</span></blockquote>
+    <div class="goldline"></div>
+  </section>
+  <section class="story">
+    <div class="container reveal">
+      <div class="section-kicker">Ensemble, pour sauver des vies</div>
+      <h2>De votre générosité<br>naît l'espoir.</h2>
+      <p>Grâce à la mobilisation de ses donateurs, cette voiture d’intervention de United Hatzalah est aujourd’hui sur le terrain. Elle accompagne les secouristes dans leur mission : venir en aide, porter secours et sauver des vies.</p>
+      <div class="indicators">
+        <div class="indicator"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 28 5 17C-3 8 10 0 16 9c6-9 19-1 11 8Z"/></svg><span>Au service de la vie</span></div>
+        <div class="indicator"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="10" r="5"/><path d="M6 29v-3a10 10 0 0 1 20 0v3M3 14a4 4 0 0 1 3-4m23 4a4 4 0 0 0-3-4"/></svg><span>Une force collective</span></div>
+        <div class="indicator"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 28 7v8c0 7-5 12-12 15C9 27 4 22 4 15V7Z"/><path d="M16 10v12m-6-6h12"/></svg><span>Secourir sans attendre</span></div>
+      </div>
+    </div>
+  </section>
+  <section class="donors container reveal" id="donateurs">
+    <div class="section-kicker">Notre reconnaissance</div>
+    <h2>Merci à chacun d'entre vous.</h2>
+    <p class="intro">Derrière cette voiture, des femmes, des hommes, des familles et des entreprises qui ont choisi de se mobiliser. Chacun de vos gestes a contribué à donner vie à ce projet.</p>
+    <div class="name-panel">
+      <div class="panel-title-wrap"><div class="panel-title">Avec la participation de :</div></div>
+      <div class="name-grid" id="names"></div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="heart" aria-hidden="true">♥</div>
+  <p>Merci à tous ceux qui ont contribué à faire de cette voiture une réalité.</p>
+  <small>UNITED HATZALAH · ENSEMBLE, NOUS SAUVONS DES VIES</small>
+  <div><a class="foot-link" href="https://1221.fr" target="_blank" rel="noopener noreferrer">DÉCOUVRIR UNITED HATZALAH ↗</a></div>
+</footer>
+<script>
+const donorNames=["Ninon Lanquar", "David Soussan", "Lauren Lasry", "Audrey Shlomo Taieb", "Julien TUIL", "Nicolas Ayache", "LPB", "Olivia et Benjamin KNAFO", "Gabriel KNAFO", "SELARL DR LIPSKER", "Jackie CHICHA", "David CHAOUAT", "David Trigalo", "David LUMBROSO", "G2J VISION", "Deborah ELBAZ BELLAICHE", "Arnold BELLAICHE", "Lauren et Yohan BENSIMHON", "Mikael Atlan", "David et Ariane COHEN", "Karen et Jérémy Chlouch", "Ilana ELKOUBI", "DC TRANSACTION", "Michael Zana", "ELKOBBI Simone", "BENGUIGUI Joseph", "CHETRIT Maurice"];
+const target=document.getElementById('names');
+donorNames.forEach(name=>{const div=document.createElement('div');div.className='name';div.textContent=name;target.append(div)});
+</script>
+</body>
+</html>
